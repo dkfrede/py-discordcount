@@ -4,7 +4,7 @@ import json
 import time
 
 # Insert your token, if not the bot will not work
-token='OTU0NTAwNjcyMzQ5NDI1NzM0.YjUCBg.2QqII6dhZGtz2Go_PVcleK3EFDY'
+token='token'
 
 # Insert your channel id, where users are gonna countup ;)
 channel=955099338374271026
