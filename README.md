@@ -1,4 +1,4 @@
-# Py Discord Countdown
+# Py Discord Countup
 A countup system, on discord.
 
 Make a channel where people can countup...
