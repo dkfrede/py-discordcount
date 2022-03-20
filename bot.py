@@ -87,6 +87,9 @@ class MyClient(discord.Client):
                         # Removes all text from the json file
                         f.seek(0)
 
+                        # Defines a currentnum
+                        currentNum = int(d["countup"])+1
+
                         # Updates lines in our json file
                         with open('countup.json',"w") as outfile:
 
@@ -94,7 +97,7 @@ class MyClient(discord.Client):
                             outfile.write(json_object)
 
                         # Sends a message to the user, so the person is sure that the bot is running
-                        await message.reply("Updated - (" + int(d["countup"])+1 + ")", delete_after=3)
+                        await message.reply("Updated - (" + str(currentNum) + ")", delete_after=0.5)
 
                     else:
                         # Deletes text if its not correct
